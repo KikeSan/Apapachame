@@ -15,6 +15,9 @@ var colorsWork2 = ['#009b3a','#419D46','#FFFFFF','#152D6F','#EC433B','#233C95','
 
 $(document).ready(function() {
     
+//    $('.navbar-nav').css({marginLeft: -($('.navbar-nav').width()/2)});
+    
+    
     function Foto(contenido,target,ID){
         var img = document.createElement('img');
         img.setAttribute('src', contenido);

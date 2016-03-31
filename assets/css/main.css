@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+/*  font-family: "Open Sans", sans-serif;*/
   font-size: 16px;
   font-weight: 300;
     color: #E4E6E7;
@@ -25,7 +25,7 @@ body.fullscreen-image-background {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Dosis", sans-serif;
+/*  font-family: "Dosis", sans-serif;*/
   font-weight: 300;
   color: #646464;
   margin-top: 0;
@@ -69,7 +69,7 @@ body #jpreBar {
 /* NAVIGATION BAR
 /* --------------------- */
 .espacioLogo{
-    width: 100px;
+    width: 450px;
     color: rgb(156, 23, 55);
 }
 .navbar-header{
@@ -80,9 +80,10 @@ body #jpreBar {
 }
 .navbar-brand {
   padding: 0px 15px;
+    margin-left: -225px !important;
 }
 .navbar-brand img {
-  width: 74px;
+  width: 490px;
   height: auto;
 }
 
@@ -109,11 +110,11 @@ body #jpreBar {
 }
 
 .navbar-nav {
-  padding: 10px 0;
+    padding: 40px 0;
     
     left: 50%;
     position: absolute;
-    margin-left: -255px;
+    margin-left: -456px;
 }
 .navbar-nav > li {
   margin: 0 10px;
@@ -135,7 +136,7 @@ body #jpreBar {
   padding-right: 3px;
   padding-top: 5px;
   padding-bottom: 5px;
-  border-bottom: 2px solid transparent;
+/*  border-bottom: 2px solid transparent;*/
   font-size: 12px;
   color: #646464;
   font-weight: 700;
@@ -165,10 +166,11 @@ body #jpreBar {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
+    min-height: 110px;
 }
 .navbar.navbar-light {
-  background-color: #9C1737;
-  border-bottom: 1px solid #72142E;
+    background-color: #EC3237;
+/*  border-bottom: 1px solid #72142E;*/
 }
 .navbar.navbar-light .navbar-nav.nav-text-light > li > a {
   color: #fff;
@@ -5408,7 +5410,10 @@ img.mfp-img {
 .hero-unit .slide-caption {
   padding-bottom: 50px;
   margin: 0 auto;
-  text-shadow: 2px 2px 2px #111;
+/*  text-shadow: 2px 2px 2px #111;*/
+    top: -150px;
+    position: relative;
+    right: 50px;
 }
 @media screen and (max-width: 480px) {
   .hero-unit .slide-caption {
@@ -6137,7 +6142,7 @@ img.mfp-img {
 /* --------------------- */
 .contact-form {
   overflow: hidden;
-  margin-bottom: 40px;
+  margin-bottom: 240px;
 }
 .contact-form input[type="text"],
 .contact-form input[type="email"],
@@ -6301,10 +6306,10 @@ img.mfp-img {
     top: -7px;
     position: relative;
 }
-#footer .logo img{
+/*#footer .logo img{
     width: 57px;
     float: left;
-}
+}*/
 
 #footer .diagonalUp{
     position: relative;

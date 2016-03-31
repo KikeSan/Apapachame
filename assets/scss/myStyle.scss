@@ -1,0 +1,192 @@
+@import "fuentes";
+
+$rojo: #EC3237;
+$lila: #DDCBC9;
+$hover: #A03535;
+
+$CodaHeavy: 'Coda-Heavy';
+$CodaRegular: 'Coda-Regular';
+$CutiePatootie: 'Cutie-Patootie';
+
+body{
+    /*transform-style: preserve-3d;
+    overflow-y: scroll;*/
+    overflow-x: hidden;
+}
+
+.slideshow{
+    .hero-content{
+        .txtIntro{
+            width: 764px;
+            height: 704px;
+            background: url(../img/baseTitulo.png);
+            background-size: cover;
+            text-align: left;
+            p{
+                &:first-child{
+                    font-family: $CodaHeavy;
+                    font-size: 49px;
+                    margin: 38% 0 0 0px;
+                }
+                font-family: $CodaRegular;
+                font-size: 42px;
+                color: $rojo;
+                padding-left: 12%;
+                margin-top: -57px;
+            }
+            span{
+                font-family: "Arial", sans-serif;
+                font-size: 13px;
+                color: #4b4b4b;
+                display: block;
+                width: 70%;
+                line-height: 18px;
+                padding-left: 12%;
+                margin-top: -27px;
+            }
+            .boton{
+                margin-left: 12%;
+                margin-top: -15px;
+            }
+        }
+    }
+    .slide-navigation{
+        display: none;
+    }
+}
+
+.navbar{
+    #main-nav{
+        ul{
+            li{
+                a{
+                    font-family: $CutiePatootie;
+                    font-size: 38px;
+                    font-weight: normal;
+                    &:hover{
+//                        text-decoration: none !important;
+                    }
+                }
+            }
+        }
+    }
+}
+/**************** BOTON ****************/
+.boton{
+    width: 130px;
+    height: 40px;
+    margin-top: 25px;
+    a{
+        width: 100%;
+        height: 100%;
+        background-color: $rojo;
+        border: none;
+        border-radius: 0px;
+        font-size: 16px;
+        line-height: 26px;
+        &:hover{
+            background-color: #C64F4D;
+        }
+    }
+}
+/**************** ***** ****************/
+.main-content{
+    .blur{
+        background-image: url(../img/bg_blur.png);
+        padding: 70px 0;
+        height: 1741px;
+        background-size: 100%;
+        .section-heading{
+            margin-top: 17%;
+            width: 696px;
+            position: absolute;
+            left: 50%;
+            margin-left: -320px;
+            text-align: left;
+            h2{
+                color: #252525;
+                font-family: $CodaRegular;
+                font-size: 40px;
+            }
+            p{
+                font-size: 16px;
+                color: #4b4b4b;
+                font-family: 'Arial', sans-serif;
+            }
+            
+            .noso{
+                margin-top: 150px;
+                h1{
+                    text-align: center;
+                }
+                .contenidoItems{
+                    max-width: 960px;
+                    text-align: center;
+                }
+            }
+        }
+        .fotoRamo{
+            position: absolute;
+            right: 0;
+            width: 35%; 
+            margin-top: -35px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    
+    .productos{
+        background-image: url(../img/title_prod.jpg);
+        background-size: 100%;
+        background-color: $lila;
+        height: 450px;
+    }
+    
+    .contact{
+        background-color: $lila;
+        
+        .btn{
+            border: 0;
+            padding: 0;
+            border-radius: 12px;
+            width: 135px;
+            height: 25px;
+            background-color: $rojo;
+            line-height: 25px;
+            &:hover{
+                background-color: $hover;
+            }
+        }
+    }
+}
+
+.menuFooter{
+//    height: 300px;
+    background-color: $rojo;
+    padding: 50px 0 100px;
+    img{
+        margin-top: -315px;
+        width: 100%;
+    }
+    h2{
+        color: #c6c6c6;
+        font-family: $CodaRegular;
+    }
+    p{
+        font-size: 12px;
+        color: #c6c6c6;
+        line-height: 16px;
+    }
+}
+
+.pie{
+    background-color: #fff;
+    height: 60px;
+    .logo{
+        width: 389px;
+        height: auto;
+        top: -90px;
+        position: absolute;
+    }
+}

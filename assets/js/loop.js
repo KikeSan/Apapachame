@@ -87,10 +87,10 @@ jQuery( function($){
 			// Components
 			slide_links: 'blank',		// Individual links for each slide (Options: false, 'num', 'name', 'blank')
 			thumb_links: 0,				// Individual thumb links for each slide
-			slides:  	[				// Slideshow Images
-                {image : 'assets/img/sliders/slider1.jpg', title : '<div class="hero-text"><h2 class="hero-heading"><span class="Nombre">Kike</span> <span class="Apellido">Sánchez</span></h2><p>FRONT-END DEVELOPER </p></div>', thumb : '', url : ''},
+			slides:  	[				// Slideshow Images 
+                {image : 'assets/img/sliders/slider1.jpg', title : '<div class="hero-text"><h2 class="hero-heading"><div class="txtIntro"><p>Cómplices</p><br><p>de momentos inolvidables</p><span>Fusce ultrices ornare velit, consectetur tempus eros dapibus et. Integer lobortis, dui in iaculis sollicitudin, felis nunc aliquam nibh, eu porta nisi urna nec odio. Duis suscipit viverra magna id sagittis pellentesque nec, convallis eu est. Nunc eu mattis dui. Nulla quis suscipit ligula.</span><div class="boton"><a href="#" class="btn btn-primary">Comprar <i class="fa fa-angle-double-right"></i></a></div></div></h2></div>', thumb : '', url : ''}/*,
                 {image : 'assets/img/sliders/slider2.jpg', title : '<div class="hero-text"><h2 class="hero-heading"><span class="Nombre">Kike</span> <span class="Apellido">Sánchez</span></h2><p>#HTML5 #JS #JQuery #CSS3 #SASS #PHP</p></div>', thumb : '', url : ''},
-                {image : 'assets/img/sliders/slider3.jpg', title : '<div class="hero-text"><h2 class="hero-heading"><span class="Nombre">Kike</span> <span class="Apellido">Sánchez</span></h2><p>Diseño y desarrollo web responsive</p></div>', thumb : '', url : ''}  
+                {image : 'assets/img/sliders/slider3.jpg', title : '<div class="hero-text"><h2 class="hero-heading"><span class="Nombre">Kike</span> <span class="Apellido">Sánchez</span></h2><p>Diseño y desarrollo web responsive</p></div>', thumb : '', url : ''} */ 
 						],
 		});
 

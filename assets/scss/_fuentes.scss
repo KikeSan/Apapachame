@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Coda-Heavy';
+    src: url('../fonts/Coda-Heavy.eot');
+    src: url('../fonts/Coda-Heavy.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Coda-Heavy.woff2') format('woff2'),
+         url('../fonts/Coda-Heavy.woff') format('woff'),
+         url('../fonts/Coda-Heavy.ttf') format('truetype'),
+        url('../fonts/Coda-Heavy.svg#Coda-Heavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'Coda-Heavy';
+        src: url('../fonts/Coda-Heavy.svg#Coda-Heavy') format('svg');
+    }
+}
+
+
+@font-face {
+    font-family: 'Coda-Regular';
+    src: url('../fonts/Coda-Regular.eot');
+    src: url('../fonts/Coda-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Coda-Regular.woff2') format('woff2'),
+         url('../fonts/Coda-Regular.woff') format('woff'),
+         url('../fonts/Coda-Regular.ttf') format('truetype'),
+         url('../fonts/Coda-Regular.svg#Coda-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'Coda-Regular';
+        src: url('../fonts/Coda-Regular.svg#Coda-Regular') format('svg');
+    }
+}
+
+@font-face {
+    font-family: 'Cutie-Patootie';
+    src: url('../fonts/Cutie Patootie.eot');
+    src: url('../fonts/Cutie Patootie.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Cutie Patootie.woff2') format('woff2'),
+        url('../fonts/Cutie Patootie.woff') format('woff'),
+        url('../fonts/Cutie Patootie.ttf') format('truetype'),
+        url('../fonts/Cutie Patootie.svg#bree_peru_ltlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'Cutie-Patootie';
+        src: url('../fonts/Cutie Patootie.svg#Cutie Patootie') format('svg');
+    }
+}
